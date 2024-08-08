@@ -39,3 +39,8 @@
   transform: translateX(40%);
   top: 80%;
 }
+
+
+.star_form {
+  display: flex;
+}

@@ -3,10 +3,11 @@ import { Collapse } from "../CollapseCore/Collapse"
 import { Input } from "../InputCore/Input"
 import { TabItem } from "../RadioInput/TabItem"
 import { TabGroup } from "../RadioInput/Tabs"
+import { Rating } from "../Rating/Rating"
+import { Star } from "../Rating/RatingStar"
 import { Slider } from "../Slider/Slider"
 import { SliderItem } from "../Slider/SliderItem"
 import { Div } from "../Slider/TestDiv"
-
 
 export const Test = () => {
 
@@ -55,6 +56,14 @@ export const Test = () => {
 					<SliderItem src="https://s00.yaplakal.com/pics/pics_original/2/7/5/17247572.jpg" />
 				</Slider>
 			</Div>
+
+			<Rating size={100}>
+				<Star></Star>
+				<Star></Star>
+				<Star></Star>
+				<Star></Star>
+				<Star></Star>
+			</Rating>
 
 		</>
 	)
